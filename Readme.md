@@ -1,4 +1,3 @@
 To run the application on a dev mode :
 
-client : npm run start
-server : npm run dev
+docker compose -f docker-compose.dev.yml up --build
